@@ -65,33 +65,33 @@ export const galleryItems = [
   //-----------------------------------------------------------------------------
   {
     preview:
-      "https://cdn.pixabay.com/photo/2022/05/12/12/55/sunset-7191546__340.jpg",
+      "https://cdn.pixabay.com/photo/2020/06/06/14/26/flower-5266745__340.jpg",
     original:
-      "https://pixabay.com/get/g4c4275ace69e283ee1daac419d6adcd08f7d75bb6bcc0232a3d189293a4b203e0e658adf2e0e1cf62aa64f650f2dcf162d78df018797b8df89cd62f7851ffaff_1280.jpg",
+      "https://cdn.pixabay.com/photo/2020/06/06/14/26/flower-5266745_960_720.jpg",
     description: "Coast Sea",
   },
 
   {
     preview:
-      "https://cdn.pixabay.com/photo/2022/05/12/10/02/mountains-7191235__340.jpg",
+      "https://cdn.pixabay.com/photo/2019/08/17/16/11/art-4412523__340.jpg",
     original:
-      "https://pixabay.com/get/g1159d28190305dda4874dcbf2e66c8afbc6e810024504b1f43e42ade08df5c8772c21607a221c23ce930bb131d6ec390478dd136cd0f1c8a3c3f1db4c093402b_1280.jpg",
+      "https://cdn.pixabay.com/photo/2019/08/17/16/11/art-4412523_960_720.jpg",
     description: "Mountains",
   },
 
   {
     preview:
-      "https://cdn.pixabay.com/photo/2022/02/24/21/46/nature-7033209__340.jpg",
+      "https://cdn.pixabay.com/photo/2022/05/12/20/59/tulips-7192345__340.jpg",
     original:
-      "https://pixabay.com/get/g6dad3ec7be39c1365b76436839539348470d2bafc52991f347b8a4e70677a0a3ee5e41ff9b94a50728beedc6cca6c0bc1ad5c41efa4627cd7030fd86a209feb6_1280.jpg",
+      "https://cdn.pixabay.com/photo/2022/05/12/20/59/tulips-7192345_960_720.jpg",
     description: "Lighthouse Coast Sea",
   },
 
   {
     preview:
-      "https://cdn.pixabay.com/photo/2022/05/31/09/50/lake-7233236__340.jpg",
+      "https://cdn.pixabay.com/photo/2020/09/16/04/02/skyline-5575251__340.jpg",
     original:
-      "https://pixabay.com/get/gdfb8039d0d232c6f6ad1408923f5744df5fa69963349fc10a7bdd9804c7cf322689fafb26e60df91eeadcb366c9c66b45d1a9f0b5ed3e7b55924b0359e3d8b4e_1280.jpg",
+      "https://cdn.pixabay.com/photo/2020/09/16/04/02/skyline-5575251_960_720.jpg",
     description: "Lighthouse Coast Sea",
   },
 
