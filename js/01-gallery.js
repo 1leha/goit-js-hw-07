@@ -1,17 +1,15 @@
 import { galleryItems } from "./gallery-items.js";
 // Change code below this line
 
-// console.log(galleryItems);
-
 const refs = {
   gallery: document.querySelector(".gallery"),
 };
 
-makeGalleryMarkup(galleryItems);
+renderGallery(galleryItems);
 
 refs.gallery.addEventListener("click", onImageClick);
 
-function makeGalleryMarkup(gallery) {
+function renderGallery(gallery) {
   refs.gallery.innerHTML = gallery
     .map(({ preview, original, description }) => {
       return `
@@ -38,14 +36,15 @@ function onImageClick(e) {
 	<img width="1280" src="${bigSizedUrl}" alt="${description}">
 	`
   );
+
   const onEscape = (event) => {
     if (event.key === "Escape") {
       basicLightboxItem.close(() => {
-        document.removeEventListener("keydown", onEscape);
+        removeEventListener("keydown", onEscape);
       });
     }
   };
 
   basicLightboxItem.show();
-  document.addEventListener("keydown", onEscape);
+  addEventListener("keydown", onEscape);
 }

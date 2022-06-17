@@ -5,7 +5,7 @@ const refs = {
   gallery: document.querySelector(".gallery"),
 };
 
-makeGalleryMarkup(galleryItems);
+renderGallery(galleryItems);
 
 if ("loading" in HTMLImageElement.prototype) {
   changeImagesSrc();
@@ -15,7 +15,7 @@ if ("loading" in HTMLImageElement.prototype) {
 
 refs.gallery.addEventListener("click", onImageClick);
 
-function makeGalleryMarkup(gallery) {
+function renderGallery(gallery) {
   refs.gallery.innerHTML = gallery
     .map(({ preview, original, description }) => {
       return `
