@@ -10,13 +10,13 @@ makeGalleryMarkup(galleryItems);
 if ("loading" in HTMLImageElement.prototype) {
   changeImagesSource();
 } else {
-  makeLazyScript();
+  connectLazyScript();
 }
 
 refs.gallery.addEventListener("click", onImageClick);
 
 function makeGalleryMarkup(gallery) {
-  const a = gallery
+  refs.gallery.innerHTML = gallery
     .map(({ preview, original, description }) => {
       return `
     <div class="gallery__item">
@@ -27,13 +27,11 @@ function makeGalleryMarkup(gallery) {
       data-src="${preview}"
       data-source="${original}"
       alt="${description}"
-      
-    />
+      />
   </a>
 </div>`;
     })
     .join("");
-  refs.gallery.innerHTML = a;
 }
 
 function onImageClick(e) {
@@ -45,6 +43,7 @@ function onImageClick(e) {
 	<img width="1280" src="${bigSizedUrl}" alt="${description}">
 	`
   );
+  
   const onEscape = (event) => {
     if (event.key === "Escape") {
       basicLightboxItem.close(() => {
@@ -57,7 +56,7 @@ function onImageClick(e) {
   document.addEventListener("keydown", onEscape);
 }
 
-function makeLazyScript() {
+function connectLazyScript() {
   const script = document.createElement("script");
   script.src =
     "https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js";
