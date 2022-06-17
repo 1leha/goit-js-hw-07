@@ -8,7 +8,7 @@ const refs = {
 makeGalleryMarkup(galleryItems);
 
 if ("loading" in HTMLImageElement.prototype) {
-  changeImagesSource();
+  changeImagesSrc();
 } else {
   connectLazyScript();
 }
@@ -20,16 +20,16 @@ function makeGalleryMarkup(gallery) {
     .map(({ preview, original, description }) => {
       return `
     <div class="gallery__item">
-  <a class="gallery__link" href="large-image.jpg">
-    <img
-      loading="lazy"
-      class="gallery__image lazyload"
-      data-src="${preview}"
-      data-source="${original}"
-      alt="${description}"
-      />
-  </a>
-</div>`;
+      <a class="gallery__link" href="large-image.jpg">
+        <img
+          loading="lazy"
+          class="gallery__image lazyload"
+          data-src="${preview}"
+          data-source="${original}"
+          alt="${description}"
+          />
+      </a>
+    </div>`;
     })
     .join("");
 }
@@ -43,7 +43,7 @@ function onImageClick(e) {
 	<img width="1280" src="${bigSizedUrl}" alt="${description}">
 	`
   );
-  
+
   const onEscape = (event) => {
     if (event.key === "Escape") {
       basicLightboxItem.close(() => {
@@ -63,7 +63,7 @@ function connectLazyScript() {
   document.body.appendChild(script);
 }
 
-function changeImagesSource() {
+function changeImagesSrc() {
   const imagesRef = document.querySelectorAll('img[loading="lazy"]');
   imagesRef.forEach((img) => (img.src = img.dataset.src));
 }

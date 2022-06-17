@@ -158,4 +158,101 @@ export const galleryItems = [
       "https://cdn.pixabay.com/photo/2020/04/20/20/47/red-5069808_960_720.jpg",
     description: "Lighthouse Coast Sea",
   },
+  //------------------------------------------------------------------
+
+  {
+    preview:
+      "https://cdn.pixabay.com/photo/2022/03/30/17/54/seagull-7101611__340.jpg",
+    original:
+      "https://cdn.pixabay.com/photo/2022/03/30/17/54/seagull-7101611_960_720.jpg",
+    description: "Coast Sea",
+  },
+
+  {
+    preview:
+      "https://cdn.pixabay.com/photo/2022/05/23/18/45/bee-7216939__340.jpg",
+    original:
+      "https://cdn.pixabay.com/photo/2022/05/23/18/45/bee-7216939_960_720.jpg",
+    description: "Mountains",
+  },
+
+  {
+    preview:
+      "https://cdn.pixabay.com/photo/2022/04/21/17/23/nature-7147972__340.jpg",
+    original:
+      "https://cdn.pixabay.com/photo/2022/04/21/17/23/nature-7147972_960_720.jpg",
+    description: "Lighthouse Coast Sea",
+  },
+
+  {
+    preview:
+      "https://cdn.pixabay.com/photo/2021/11/30/08/24/strawberries-6834750__340.jpg",
+    original:
+      "https://cdn.pixabay.com/photo/2021/11/30/08/24/strawberries-6834750_960_720.jpg",
+    description: "Lighthouse Coast Sea",
+  },
+
+  {
+    preview:
+      "https://cdn.pixabay.com/photo/2022/06/07/03/25/rice-fields-7247360__340.jpg",
+    original:
+      "https://cdn.pixabay.com/photo/2022/06/07/03/25/rice-fields-7247360_960_720.jpg",
+    description: "Lighthouse Coast Sea",
+  },
+
+  {
+    preview:
+      "https://cdn.pixabay.com/photo/2022/06/06/10/55/cat-7245850__340.jpg",
+    original:
+      "https://cdn.pixabay.com/photo/2022/06/06/10/55/cat-7245850_960_720.jpg",
+    description: "Lighthouse Coast Sea",
+  },
+
+  {
+    preview:
+      "https://cdn.pixabay.com/photo/2022/03/20/21/34/bird-7081904__340.jpg",
+    original:
+      "https://cdn.pixabay.com/photo/2022/03/20/21/34/bird-7081904_960_720.jpg",
+    description: "Lighthouse Coast Sea",
+  },
+
+  {
+    preview:
+      "https://cdn.pixabay.com/photo/2022/06/04/14/52/flower-7242158__340.jpg",
+    original:
+      "https://cdn.pixabay.com/photo/2022/06/04/14/52/flower-7242158_960_720.jpg",
+    description: "Lighthouse Coast Sea",
+  },
+
+  {
+    preview:
+      "https://cdn.pixabay.com/photo/2019/07/30/20/33/daisy-4373803__340.jpg",
+    original:
+      "https://cdn.pixabay.com/photo/2019/07/30/20/33/daisy-4373803_960_720.jpg",
+    description: "Lighthouse Coast Sea",
+  },
+
+  {
+    preview:
+      "https://cdn.pixabay.com/photo/2022/03/08/07/08/water-7055153__340.jpg",
+    original:
+      "htthttps://cdn.pixabay.com/photo/2022/03/08/07/08/water-7055153_960_720.jpg",
+    description: "Lighthouse Coast Sea",
+  },
+
+  {
+    preview:
+      "https://cdn.pixabay.com/photo/2022/05/18/10/27/sea-7204955__340.jpg",
+    original:
+      "https://cdn.pixabay.com/photo/2022/05/18/10/27/sea-7204955_960_720.jpg",
+    description: "Lighthouse Coast Sea",
+  },
+
+  {
+    preview:
+      "https://cdn.pixabay.com/photo/2022/05/22/13/25/flowers-7213392__340.jpg",
+    original:
+      "https://cdn.pixabay.com/photo/2022/05/22/13/25/flowers-7213392_960_720.jpg",
+    description: "Lighthouse Coast Sea",
+  },
 ];
